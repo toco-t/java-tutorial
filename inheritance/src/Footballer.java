@@ -10,6 +10,11 @@ public class Footballer extends Athlete{
     }
 
     @Override
+    void train() {
+        System.out.println(super.name + " is training...");
+    }
+
+    @Override
     public String toString() {
         return (super.toString() + this.club + "\n" + this.shirtNumber + "\n");
     }

@@ -1,4 +1,5 @@
-public class Athlete {
+// abstract classes cannot be instantiated but can have subclasses
+public abstract class Athlete {
 
     String name;
     int age;
@@ -9,6 +10,9 @@ public class Athlete {
         this.age = age;
         this.sport = sport;
     }
+
+    //
+    abstract void train();
 
     @Override
     public String toString() {

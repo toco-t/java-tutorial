@@ -6,5 +6,7 @@ public class Inheritance {
 
         System.out.println(elliott);
         System.out.println(jones);
+
+        jones.train();
     }
 }
