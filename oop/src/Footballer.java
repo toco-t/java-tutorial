@@ -1,8 +1,8 @@
 public class Footballer {
 
-    String name;
-    int shirtNumber;
-    char position;
+    private final String name;
+    private final int shirtNumber;
+    private final char position;
     static int numberOfPlayers;
 
     Footballer(String name, int shirtNumber, char position) {
@@ -11,6 +11,19 @@ public class Footballer {
         this.position = position;
 
         numberOfPlayers++;
+    }
+
+    // getter methods
+    public String getName() {
+        return this.name;
+    }
+
+    public int getShirtNumber() {
+        return this.shirtNumber;
+    }
+
+    public char getPosition() {
+        return this.position;
     }
 
     // overwriting toString method
