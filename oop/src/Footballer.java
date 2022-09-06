@@ -14,6 +14,7 @@ public class Footballer {
     }
 
     // overwriting toString method
+    @Override
     public String toString() {
         return "Name: " + this.name + "\nNo: " + this.shirtNumber + "\nPosition: " + this.position;
     }
