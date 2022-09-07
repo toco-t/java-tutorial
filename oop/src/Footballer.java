@@ -1,8 +1,8 @@
 public class Footballer {
 
-    private final String name;
-    private final int shirtNumber;
-    private final char position;
+    private String name;
+    private int shirtNumber;
+    private char position;
     static int numberOfPlayers;
 
     Footballer(String name, int shirtNumber, char position) {
@@ -11,6 +11,11 @@ public class Footballer {
         this.position = position;
 
         numberOfPlayers++;
+    }
+
+    // overloaded constructor
+    Footballer(Footballer player) {
+        this.copy(player);
     }
 
     // getter methods
@@ -24,6 +29,19 @@ public class Footballer {
 
     public char getPosition() {
         return this.position;
+    }
+
+    // setter methods
+    protected void setName(String name) {
+        this.name = name;
+    }
+
+    protected void setShirtNumber(int shirtNumber) {
+        this.shirtNumber = shirtNumber;
+    }
+
+    protected void setPosition(char position) {
+        this.position = position;
     }
 
     // overwriting toString method
@@ -45,6 +63,13 @@ public class Footballer {
     }
 
     static void numberOfPlayers() {
-        System.out.printf("Total number of players instantiated: %d", numberOfPlayers);
+        System.out.printf("Total number of players instantiated: %d\n", numberOfPlayers);
+    }
+
+    // copy method
+    public void copy(Footballer player) {
+        this.setName(player.getName());
+        this.setShirtNumber(player.getShirtNumber());
+        this.setPosition(player.getPosition());
     }
 }

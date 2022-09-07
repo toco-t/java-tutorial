@@ -27,5 +27,10 @@ public class OOP {
         // static keyword modifier
         System.out.println(); // line break
         Footballer.numberOfPlayers();
+
+        // copy constructor
+        System.out.println(); // line break
+        milner.copy(vandijk);
+        System.out.println(milner);
     }
 }
