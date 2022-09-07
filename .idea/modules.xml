@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-tutorial.iml" filepath="$PROJECT_DIR$/java-tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop/oop.iml" filepath="$PROJECT_DIR$/oop/oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/polymorphism/polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/userinput/userinput.iml" filepath="$PROJECT_DIR$/userinput/userinput.iml" />
       <module fileurl="file://$PROJECT_DIR$/variables/variables.iml" filepath="$PROJECT_DIR$/variables/variables.iml" />
     </modules>
